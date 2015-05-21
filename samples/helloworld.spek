@@ -1,0 +1,11 @@
+domain TestDomain
+{
+	public agent TestAgent : Application
+	{
+		public TestAgent(string[] args)
+		{
+			var x = "hello world!;
+			print x;
+		}
+	}
+}
